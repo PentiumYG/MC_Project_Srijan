@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="left"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/background_s"
+        android:maxWidth="300dp"
+        android:maxHeight="410dp"
+        android:minHeight="40dp">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="20dp">
+
+        </androidx.constraintlayout.widget.Guideline>
+
+        <TextView
+            android:id="@+id/senderTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Hi Brother"
+            android:paddingRight="15dp"
+            android:paddingLeft="5dp"
+            android:textSize="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </TextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</RelativeLayout>
